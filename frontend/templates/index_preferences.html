@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="../static/style_preferences.css">
+</head>
+<body>
+    <div id="home">
+        <div class="form">
+            <h1>Preferences</h1>
+            <form method="POST">
+                    <label for="city">City:  </label>
+                    <input type="text" id="city" name="city" required><br><br>
+                    
+                    <label>Nationality:</label><br>
+                    <input type="radio" id="indian" name="nationality" value="Indian">
+                    <label for="indian">Indian</label><br>
+                    
+                    <input type="radio" id="non-indian" name="nationality" value="Non-Indian">
+                    <label for="non-indian">Non-Indian</label><br><br>
+                    
+                    <label>Feedback Options:</label><br>
+                    <input type="checkbox" id="recommended" name="feedback_options" value="User Recommended">
+                    <label for="recommended">User Recommended</label><br>
+                    
+                    <input type="checkbox" id="popularity" name="feedback_options" value="Popularity">
+                    <label for="popularity">Popularity</label><br>
+                    
+                    <input type="checkbox" id="user-ratings" name="feedback_options" value="User Ratings">
+                    <label for="user-ratings">User Ratings</label><br><br>
+                    
+                    <button type="submit" value="Submit" id="submit" onClick="window.location.href = 'index_itinerary.html'">Submit</button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
