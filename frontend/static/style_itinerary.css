@@ -36,7 +36,7 @@ a:visited{
   position: absolute;
   width: 1026px;
   height: 51px;
-  top: 76px;
+  margin-top: 76px;
   left: 187px;
 }
 
@@ -205,261 +205,7 @@ a:visited{
   left: 144px;
 }
 
-.itinerary .overlap {
-  position: absolute;
-  width: 1280px;
-  height: 785px;
-  top: 165px;
-  left: 0;
-}
-
-.itinerary .hero {
-  position: absolute;
-  width: 1280px;
-  height: 722px;
-  top: 0;
-  left: 0;
-  background-image: url(./img/image-placeholder.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.itinerary .rectangle {
-  position: relative;
-  height: 720px;
-  top: 2px;
-  background-color: #304f4780;
-}
-
-.itinerary .container {
-  position: absolute;
-  width: 1053px;
-  height: 88px;
-  top: 682px;
-  left: 113px;
-  background-color: #304f47;
-  border-radius: 8px;
-}
-
-.itinerary .search {
-  width: 987px;
-  top: 698px;
-  left: 145px;
-  position: absolute;
-  height: 56px;
-}
-
-.itinerary .sort-by {
-  position: absolute;
-  width: 51px;
-  height: 41px;
-  top: 4px;
-  left: 600px;
-}
-
-.itinerary .all {
-  width: 47px;
-  height: 19px;
-  top: 22px;
-  position: absolute;
-  left: 0;
-}
-
-.itinerary .element-chevron-bottom {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 3px;
-  left: 29px;
-}
-
-.itinerary .text-wrapper-7 {
-  top: 0;
-  font-family: var(--headlines-headline-bold-normal-font-family);
-  font-weight: var(--headlines-headline-bold-normal-font-weight);
-  color: #ffffff;
-  font-size: var(--headlines-headline-bold-normal-font-size);
-  text-align: right;
-  letter-spacing: var(--headlines-headline-bold-normal-letter-spacing);
-  line-height: var(--headlines-headline-bold-normal-line-height);
-  white-space: nowrap;
-  position: absolute;
-  left: 0;
-  font-style: var(--headlines-headline-bold-normal-font-style);
-}
-
-.itinerary .text-wrapper-8 {
-  top: 0;
-  font-family: var(--captions-captions-regular-font-family);
-  font-weight: var(--captions-captions-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--captions-captions-regular-font-size);
-  letter-spacing: var(--captions-captions-regular-letter-spacing);
-  line-height: var(--captions-captions-regular-line-height);
-  white-space: nowrap;
-  position: absolute;
-  left: 0;
-  font-style: var(--captions-captions-regular-font-style);
-}
-
-.itinerary .date {
-  position: absolute;
-  width: 166px;
-  height: 42px;
-  top: 4px;
-  left: 393px;
-}
-
-.itinerary .package {
-  width: 166px;
-  height: 19px;
-  top: 23px;
-  position: absolute;
-  left: 0;
-}
-
-.itinerary .img {
-  top: 3px;
-  left: 148px;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-}
-
-.itinerary .search-bar {
-  width: 352px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 56px;
-}
-
-.itinerary .overlap-group {
-  position: relative;
-  width: 350px;
-  height: 56px;
-  background-image: url(./img/form.svg);
-  background-size: 100% 100%;
-}
-
-.itinerary .round-action-search-wrapper {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 16px;
-  left: 296px;
-}
-
-.itinerary .icon-color-wrapper {
-  position: relative;
-  height: 24px;
-  top: -46px;
-  left: -11321px;
-  background-image: url(./img/path-2.png);
-  background-size: 100% 100%;
-}
-
-.itinerary .icon-color-2 {
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  top: 3px;
-  left: 3px;
-}
-
-.itinerary .text-wrapper-9 {
-  position: absolute;
-  top: 18px;
-  left: 16px;
-  font-family: var(--body-body-1-regular-font-family);
-  font-weight: var(--body-body-1-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--body-body-1-regular-font-size);
-  letter-spacing: var(--body-body-1-regular-letter-spacing);
-  line-height: var(--body-body-1-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--body-body-1-regular-font-style);
-}
-
-.itinerary .click-here-wrapper {
-  display: flex;
-  width: 160px;
-  height: 51px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 11px 24px;
-  position: absolute;
-  top: 5px;
-  left: 827px;
-  background-color: #11c3e9;
-  border-radius: 8px;
-  border: 1px solid;
-  border-color: #304f47;
-  all: unset;
-  box-sizing: border-box;
-}
-
-.itinerary .element-chevron-bottom-2 {
-  top: 725px;
-  left: 898px;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-}
-
-.itinerary .sort-by-2 {
-  position: absolute;
-  width: 65px;
-  height: 84px;
-  top: 701px;
-  left: 825px;
-}
-
-.itinerary .all-2 {
-  width: 65px;
-  height: 64px;
-  top: 20px;
-  position: absolute;
-  left: 0;
-}
-
-.itinerary .element-chevron-bottom-3 {
-  top: 48px;
-  left: 32px;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-}
-
-.itinerary .text-wrapper-10 {
-  position: absolute;
-  width: 63px;
-  top: 0;
-  left: 0;
-  font-family: var(--headlines-headline-bold-normal-font-family);
-  font-weight: var(--headlines-headline-bold-normal-font-weight);
-  color: #ffffff;
-  font-size: var(--headlines-headline-bold-normal-font-size);
-  text-align: right;
-  letter-spacing: var(--headlines-headline-bold-normal-letter-spacing);
-  line-height: var(--headlines-headline-bold-normal-line-height);
-  font-style: var(--headlines-headline-bold-normal-font-style);
-}
-
-.itinerary .text-wrapper-11 {
-  position: absolute;
-  top: 0;
-  left: 2px;
-  font-family: var(--captions-captions-regular-font-family);
-  font-weight: var(--captions-captions-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--captions-captions-regular-font-size);
-  letter-spacing: var(--captions-captions-regular-letter-spacing);
-  line-height: var(--captions-captions-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--captions-captions-regular-font-style);
-}
+/* ------------- Footer --------------*/
 
 .itinerary .group-social-icons {
   position: absolute;
@@ -557,7 +303,7 @@ a:visited{
   left: 1133px;
 }
 
-.itinerary .text-wrapper-12 {
+.itinerary .text-wrapper-7 {
   position: absolute;
   width: 82px;
   top: 72px;
@@ -572,7 +318,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-13 {
+.itinerary .text-wrapper-8 {
   position: absolute;
   width: 58px;
   top: 36px;
@@ -587,7 +333,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-14 {
+.itinerary .text-wrapper-9 {
   position: absolute;
   width: 87px;
   top: 0;
@@ -600,6 +346,7 @@ a:visited{
   line-height: var(--menu-menu-1-regular-line-height);
   white-space: nowrap;
   font-style: var(--menu-menu-1-regular-font-style);
+  
 }
 
 .itinerary .menu-list-2 {
@@ -610,7 +357,7 @@ a:visited{
   top: 274px;
 }
 
-.itinerary .text-wrapper-15 {
+.itinerary .text-wrapper-10 {
   position: absolute;
   width: 70px;
   top: 72px;
@@ -625,7 +372,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-16 {
+.itinerary .text-wrapper-11 {
   position: absolute;
   width: 70px;
   top: 108px;
@@ -640,7 +387,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-17 {
+.itinerary .text-wrapper-12 {
   position: absolute;
   width: 147px;
   top: 36px;
@@ -655,7 +402,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-18 {
+.itinerary .text-wrapper-13 {
   position: absolute;
   width: 102px;
   top: 0;
@@ -678,7 +425,7 @@ a:visited{
   top: 274px;
 }
 
-.itinerary .text-wrapper-19 {
+.itinerary .text-wrapper-14 {
   position: absolute;
   width: 96px;
   top: 72px;
@@ -693,7 +440,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-20 {
+.itinerary .text-wrapper-15 {
   position: absolute;
   width: 68px;
   top: 102px;
@@ -708,7 +455,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-21 {
+.itinerary .text-wrapper-16 {
   width: 45px;
   left: 1px;
   color: #ffffff;
@@ -723,7 +470,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.itinerary .text-wrapper-22 {
+.itinerary .text-wrapper-17 {
   position: absolute;
   width: 97px;
   top: 36px;
@@ -766,16 +513,16 @@ a:visited{
   height: 565px;
 }
 
-.itinerary .background {
+.itinerary .background-2 {
   position: absolute;
-  width: 618px;
-  height: 565px;
-  top: 0;
-  left: 0;
+  width: 130px; 
+  height: 300px;
+  margin-left: 110px; 
   background-color: #304f47;
-}
+  top: 200px;
+} 
 
-.itinerary .text-wrapper-23 {
+.itinerary .text-wrapper-18 {
   position: absolute;
   width: 271px;
   top: 518px;
@@ -812,11 +559,11 @@ a:visited{
   line-height: 25px;
 }
 
-.itinerary .text-wrapper-24 {
+.itinerary .text-wrapper-19 {
   text-decoration: underline;
 }
 
-.itinerary .text-wrapper-25 {
+.itinerary .text-wrapper-20 {
   position: absolute;
   width: 309px;
   top: 376px;
@@ -830,7 +577,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.itinerary .text-wrapper-26 {
+.itinerary .text-wrapper-21 {
   position: absolute;
   width: 467px;
   top: 30px;
@@ -885,7 +632,7 @@ a:visited{
   border-radius: 8px;
 }
 
-.itinerary .text-wrapper-27 {
+.itinerary .text-wrapper-22 {
   position: absolute;
   width: 185px;
   top: 19px;
@@ -960,124 +707,6 @@ a:visited{
   object-fit: cover;
 }
 
-.itinerary .upper-navigation {
-  position: absolute;
-  width: 1280px;
-  height: 50px;
-  top: 0;
-  left: 0;
-  background-color: #11c3e9;
-}
-
-.itinerary .group-social-icons-3 {
-  position: absolute;
-  width: 120px;
-  height: 25px;
-  top: 14px;
-  left: 1060px;
-}
-
-.itinerary .social-button-7 {
-  position: absolute;
-  width: 24px;
-  height: 25px;
-  top: 0;
-  left: 0;
-}
-
-.itinerary .social-button-8 {
-  position: absolute;
-  width: 24px;
-  height: 25px;
-  top: 0;
-  left: 32px;
-}
-
-.itinerary .social-button-9 {
-  position: absolute;
-  width: 24px;
-  height: 25px;
-  top: 0;
-  left: 64px;
-}
-
-.itinerary .social-button-10 {
-  position: absolute;
-  width: 24px;
-  height: 25px;
-  top: 0;
-  left: 96px;
-  border-radius: 24px;
-  border: 1px solid;
-  border-color: #ffffff;
-}
-
-.itinerary .subtract-3 {
-  position: absolute;
-  width: 10px;
-  height: 11px;
-  top: 6px;
-  left: 6px;
-}
-
-.itinerary .group-phone {
-  position: absolute;
-  width: 118px;
-  height: 21px;
-  top: 16px;
-  left: 100px;
-}
-
-.itinerary .vector {
-  width: 20px;
-  height: 21px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.itinerary .text-wrapper-28 {
-  position: absolute;
-  width: 92px;
-  top: 2px;
-  left: 24px;
-  font-family: "Podkova", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.itinerary .group-email {
-  position: absolute;
-  width: 166px;
-  height: 19px;
-  top: 17px;
-  left: 245px;
-}
-
-.itinerary .text-wrapper-29 {
-  position: absolute;
-  width: 133px;
-  top: 1px;
-  left: 31px;
-  font-family: "Podkova", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.itinerary .vector-2 {
-  width: 25px;
-  height: 19px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .itinerary .tourism-2 {
   position: absolute;
   width: 95px;
@@ -1087,182 +716,137 @@ a:visited{
   object-fit: cover;
 }
 
-.itinerary .text-wrapper-30 {
+/*----------------------------  Form --------------------------*/
+
+.itinerary .background{
   position: absolute;
-  width: 608px;
-  top: 1078px;
-  left: 336px;
+  width: 1300px;
+  height: 300px;
+  left: 115px;
+  top: 200px;
+}
+
+.itinerary .text-wrapper-23 {
+  position: absolute;
+  top: 170px;
+  left: 600px;
+  text-align: center;
   font-family: "Lora", Helvetica;
   font-weight: 700;
-  color: #000000;
+  color: #547486;
   font-size: 48px;
-  text-align: center;
   letter-spacing: 0.24px;
   line-height: 57.6px;
 }
 
-.itinerary .text-wrapper-31 {
+
+.itinerary .we-would-love-to {
   position: absolute;
-  width: 608px;
-  top: 1308px;
-  left: 320px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 48px;
   text-align: center;
-  letter-spacing: 0.24px;
-  line-height: 57.6px;
+  width:1100px;
+  top: 280px;
+  left: 200px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: #fbf9f9;
+  font-size: 24px;
+  letter-spacing: 0.12px;
+  line-height: 30px;
 }
-
-.itinerary .text-wrapper-32 {
+.itinerary .itinerary-form {
   position: absolute;
-  width: 608px;
-  top: 2116px;
-  left: 320px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0.24px;
-  line-height: 57.6px;
-}
-
-.itinerary .text-wrapper-33 {
-  position: absolute;
-  width: 608px;
-  top: 2949px;
-  left: 320px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0.24px;
-  line-height: 57.6px;
-}
-
-.itinerary .text-wrapper-34 {
-  position: absolute;
-  width: 608px;
-  top: 3782px;
-  left: 300px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0.24px;
-  line-height: 57.6px;
-}
-
-.itinerary .packages {
-  position: absolute;
-  width: 1084px;
-  height: 584px;
-  top: 1419px;
-  left: 98px;
-}
-
-.itinerary .package-2 {
-  position: absolute;
-  width: 354px;
-  height: 584px;
-  top: 0;
-  left: 734px;
-}
-
-.itinerary .overlap-group-3 {
-  position: relative;
-  width: 350px;
-  height: 584px;
-  background-color: var(--lightbase-colorwhite);
+  width: 818px;
+  height: 850px;
+  margin-top: 450px;
+  background-color: #ffffff;
   border-radius: 8px;
   border: 1px solid;
   border-color: var(--lightseparators-colorssecondary);
-}
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
 
-.itinerary .text-wrapper-35 {
+}
+/* .itinerary .overlap-6 {
+  position: relative;
+  width: 816px;
+  height:850px;
+  margin-top: 450px;
+  margin-left: 250px;
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+} */
+
+
+.itinerary .text-wrapper-24 {
   position: absolute;
-  width: 322px;
-  top: 341px;
-  left: 13px;
+  width: 264px;
+  top: 40px;
+  left: 250px;
+  text-align: center;
   font-family: var(--heading-h5-bold-font-family);
   font-weight: var(--heading-h5-bold-font-weight);
-  color: var(--lighttext-colortitle);
-  font-size: var(--heading-h5-bold-font-size);
+  color: #304f47;
+  font-size: 40px;
   letter-spacing: var(--heading-h5-bold-letter-spacing);
   line-height: var(--heading-h5-bold-line-height);
   font-style: var(--heading-h5-bold-font-style);
 }
 
-.itinerary .image-placeholder {
+.itinerary .text-wrapper-25{
+  margin-top:20px;
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: var(--body-body-1-semibold-font-family);
+  font-size: larger;
+  font-weight: bold;
+  color: #8c8a8a ;
+} 
+
+.itinerary .inputBox{
+  width: 80%;
+  padding:15px;
+  border-radius: 20px;
+  border-color: #a6acaf;
+  font-size: 20px;
+  margin-left: 45px;
+  margin-top: 5px;
+}
+.itinerary .btn{
+  width:120px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 650px;
+  color:#fff;
+  background-color: #304f47;
+  font-size: 23px;
+  border-radius: 20px;
+  border-width: 2px ;
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+.itinerary .btn:hover {
+  background-color: #fff;
+  color:#304f47;
+}
+.itinerary .btn:active {
+  transform: scale(0.95); 
+}
+.itinerary .response{
   position: absolute;
-  width: 350px;
-  height: 310px;
-  top: -1px;
-  left: -1px;
+  margin-top: 1400px;
+  width: 1200px;
 }
 
-.itinerary .text-wrapper-36 {
-  position: absolute;
-  width: 256px;
-  top: 383px;
-  left: 13px;
-  font-family: "Mulish", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 16px;
-  letter-spacing: 0.08px;
-  line-height: 20px;
+.itinerary .response-heading{
+  text-align: center;
+  left: 20px;
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
+  color: #547486;
+  font-size: 40px;
+  letter-spacing: 0.24px;
+  line-height: 57.6px;
 }
 
-.itinerary .overlap-wrapper {
-  position: absolute;
-  width: 354px;
-  height: 584px;
-  top: 0;
-  left: 367px;
-}
-
-.itinerary .image-placeholder-2 {
-  position: absolute;
-  width: 350px;
-  height: 310px;
-  top: -1px;
-  left: -1px;
-  object-fit: cover;
-}
-
-.itinerary .package-3 {
-  position: absolute;
-  width: 354px;
-  height: 584px;
-  top: 0;
-  left: 0;
-}
-
-.itinerary .packages-2 {
-  position: absolute;
-  width: 1084px;
-  height: 584px;
-  top: 2227px;
-  left: 98px;
-}
-
-.itinerary .packages-3 {
-  position: absolute;
-  width: 1084px;
-  height: 584px;
-  top: 3060px;
-  left: 112px;
-}
-
-.itinerary .packages-4 {
-  position: absolute;
-  width: 1084px;
-  height: 584px;
-  top: 3893px;
-  left: 112px;
+.itinerary .response-content{
+  font-size: 18px;
 }

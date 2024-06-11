@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "main": "./frontend/scripts/scripts.js",
+  "scripts": {
+    "start": "node ./frontend/scripts/scripts.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "dotenv": "^16.4.5"
+  }
+}
