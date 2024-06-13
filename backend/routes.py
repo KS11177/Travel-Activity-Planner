@@ -1,7 +1,7 @@
 import requests
-from flask import request, jsonify, Flask # Adjust import as necessary
+from flask import request, jsonify, request  # Adjust import as necessary
 #from backend.utils import load_json_data  # Adjust import as necessary
-import openai
+
 
 users = {}
 
@@ -24,3 +24,5 @@ def init_routes(app):
         if response.status_code == 200:
             return jsonify(response.json())
         return jsonify({"message": "Error fetching directions data"}), response.status_code
+
+    

@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="../static/globals_itinerary.css" />
     <link rel="stylesheet" href="../static/styleguide_itinerary.css" />
     <link rel="stylesheet" href="../static/style_itinerary.css" />
+    
   </head>
   <body>
     <div class="itinerary">
@@ -110,27 +111,27 @@
           Get your very own personalised Itinerary in just few clicks. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
-        <form class="itinerary-form" id="form">
+        <form class="itinerary-form" id="form" action="/submit" method="post">
             <div class="text-wrapper-24">Itinerary</div>
             <br><br><br>
             <br><br><br>
             <p class="text-wrapper-25">Where Do you want to visit</p>
-            <input class='inputBox' id="place" type="text" placeholder="Search the city or town">
+            <input class='inputBox' id="place" type="text" name="place" placeholder="Search the city or town">
 
             <p class="text-wrapper-25">Start Date</p>
-            <input class='inputBox' id="start-date" type="date" >
+            <input class='inputBox' id="start-date" name="startdate" type="date" >
 
             <p class="text-wrapper-25">End Date</p>
-            <input class='inputBox' id="end-date" type="date" >
+            <input class='inputBox' id="end-date" name="enddate" type="date" >
 
             <p class="text-wrapper-25">Number of people travelling</p>
-            <input class='inputBox' id="number-of-people" type="number" value="0">
+            <input class='inputBox' id="number-of-people" name="people" type="number" value="0">
 
             <p class="text-wrapper-25">Budget</p>
-            <input class='inputBox' id="budget" type="number"value="0">
+            <input class='inputBox' id="budget" type="number" name="budget" value="0">
 
             <p class="text-wrapper-25">Activities you would like to enjoy</p>
-            <input class='inputBox' id="activities" type="text" placeholder="Description">
+            <input class='inputBox' id="activities" type="text" name="activities" placeholder="Description">
             <br>
             <button type="submit" id="submit" class="btn">Submit</button>
         </form>
