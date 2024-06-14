@@ -1,13 +1,10 @@
 import os
 import requests
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 from dotenv import load_dotenv
 import google.generativeai as genai
 import markdown2
 
-
-# from config import config
-# app.config.from_object(Config)
 
 load_dotenv()
 app = Flask(__name__, template_folder='../frontend/templates', static_folder='../frontend/static')
@@ -31,19 +28,21 @@ def submit():
             budget = request.form['budget']
             activities = request.form['activities']
 
-            # Process the data (e.g., store in a database, perform some logic, etc.)
-        #     return f"Place: {place}, Start-Date: {startdate}, End-Date: {enddate}, No. of people: {people}, Budget: {budget}, Activities: {activities}"
         
             prompt = f'''I am planning a trip to ${place}. My budget is ${budget} rupees for ${people} people. 
                         The trip will start on ${startdate} and end on ${enddate}.Here is a brief description of activities 
                         they would like to do on trip: ${activities}. Please provide a detailed itinerary and recommendations 
-                        as per my interest ans also recommend the hotels . '''
+                        as per my interest and also recommend the hotels and way to transport to the place and within the place . '''
 
             response = model.generate_content(prompt)
             markdown_content = response.text
             itinerary_data = markdown2.markdown(markdown_content)
 
-            return render_template('index_itinerary.html', itinerary_data=itinerary_data)
+            itinerary_code = model.generate_content(f'''{itinerary_data}. I already have a code for my page and want to add this data
+                                                     in the middle of it. please provide only div code and add its css within div so that 
+                                                    I can add it to my existing code. provide only code no further information''')
+            
+            return render_template('index_itinerary.html', itinerary_code=itinerary_code.text)
         return render_template('index_itinerary.html')
 
 
