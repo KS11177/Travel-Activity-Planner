@@ -28,7 +28,7 @@ a:visited{
   background-color: #ffffff;
   overflow: hidden;
   width: 1280px;
-  height: 5442px;
+  height: 3565px;
   position: relative;
 }
 
@@ -262,7 +262,7 @@ a:visited{
   position: absolute;
   width: 1280px;
   height: 565px;
-  top: 4882px;
+  top: 3000px;
   left: -1px;
 }
 
@@ -848,5 +848,7 @@ a:visited{
 }
 
 .itinerary .response-content{
-  font-size: 18px;
+  font-size: 20px;
+  font-family: var(--body-body-1-semibold-font-family);
+
 }

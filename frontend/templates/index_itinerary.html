@@ -137,12 +137,12 @@
         </form>
 
         <div class="response">
-          {% if itinerary_data %}
+          {% if itinerary_code %}
           <h2 class="response-heading">Your Itinerary</h2>
-          <br><br>
-          {{ itinerary_data|safe }}
+          <br>
+          {{ itinerary_code| safe }}
           {% endif %}
-          
+ 
         </div> 
         
       </div>
