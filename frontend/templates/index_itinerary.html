@@ -137,11 +137,14 @@
         </form>
 
         <div class="response">
-          <h1 class="response-heading">Here is your Itinerary!!</h1>
+          {% if itinerary_data %}
+          <h2 class="response-heading">Your Itinerary</h2>
           <br><br>
-          <p class="response-content">Response</p>
+          {{ itinerary_data|safe }}
+          {% endif %}
+          
         </div> 
-
+        
       </div>
     </div>
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
